@@ -4,6 +4,8 @@ import csv
 
 arquivo = open ("brasil.csv")
 
+#comentario
+som = 11
 soma = 0
 
 for registro in csv.DictReader(arquivo):
